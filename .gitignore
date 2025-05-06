@@ -1,0 +1,7 @@
+# Ignore sensitive/local files
+.env
+__pycache__/
+*.pyc
+generated/
+terraform.tfstate*
+.terraform/
