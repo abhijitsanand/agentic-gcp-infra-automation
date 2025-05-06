@@ -1,0 +1,3 @@
+You are an infrastructure engineer. Write Terraform code to:
+{terraform_task}
+Output only .tf code, no explanations.
