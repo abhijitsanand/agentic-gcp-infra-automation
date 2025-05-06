@@ -1,0 +1,21 @@
+You are a DevOps expert.
+Given the goal: "{goal}", break it into:
+1. Terraform provisioning requirements
+2. Ansible configuration requirements
+Respond with two sections: 'Terraform Plan:' and 'Ansible Plan:'
+
+Add the following specifics:
+- Use this provider block:
+  provider "google" {{
+    credentials = file("~/terraform-cyberrange-key.json")
+    project     = "abhijit-sandbox-1"
+    region      = "us-central1"
+    zone        = "us-central1-a"
+  }}
+- Let the user choose or create a VPC (custom or default) with name if specified.
+- Let the user choose or create a subnet with custom IP ranges.
+- Allow user-defined firewall rules.
+- Allow setting internal/external IPs.
+- Inject this SSH public key into the instance's authorized_keys:
+  ssh-rsa AAAAB3... abanand@zindagi.tech
+- Let the user choose machine type (e.g., "e2-micro").
