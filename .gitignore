@@ -1,7 +1,8 @@
-# Ignore sensitive/local files
 .env
-__pycache__/
 *.pyc
+__pycache__/
 generated/
-terraform.tfstate*
 .terraform/
+terraform.tfstate*
+.override.auto.tfvars
+*.log
