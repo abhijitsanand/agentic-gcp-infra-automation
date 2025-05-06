@@ -72,7 +72,7 @@ Add the following specifics:
 - Allow user-defined firewall rules.
 - Allow setting internal/external IPs.
 - Inject this SSH public key into the instance's authorized_keys:
-  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC4uBwyKl/HiMKMuxdyNbOsLyI9Dygw+E/N2kHtCAtb8CIzyh91Fzo0XvmItiGwz0uUaz0Z0V/hrktwyaqaiPVuKM6OUhQQTnpl5vH1W7KOsUd1VAf5Vmn1h4KhULzCWCSkhrXAzSK4+MoauAHI7GtJAvTSBwi5N8gDTNlZubGJygFbhBfQUkPtVGAF6cD0o0Awe/Q21Hk55KfBu8u6pAtSlE7mUEIEp3Q8s181qf3hkUmV9x7CYFmm1FEqPR/uPbcCxi0G2+mdhiUL9nyaB4CUTKCMojSnTyU2/pHvZiGwrWwd/o5as9HyD0LYvqsYCvykicZfPpBQXsTf28fRQAykA80FRLowQgX6zJ4o3GE9lRMQV4Alun9AlvtZy5qR2FtZJzqaSARqqeLXIE0MCqQbGyCleft6vVKgj0lKrTd5ZkMe8C4j7CoXtWJ6gUwR7qswIzpxLiU21lAnQwDklfJ5wVSFRUrdV6RBlbwPdr0xgKoLVSseoUL4UeqiCS40t8K7gdlVRCA+K6udaa8M3qFNxyONFMbvB+K9LTDjA4aL5kbF6utNv86RR6sDl7OJX41aR5pEqx4fTFupLbJEvmz2gN6dbkOSuhsKl8TMXSwus+/7FEzTFqa21r1jJPwVo1RdNQQaGT3u0sV2mOMDnGx7ElVhB6qIyIcKy9QfpjFpuQ== abanand@zindagi.tech
+  ssh-rsa PUT-YOUR-OWN-KEY-HERE
 - Let the user choose machine type (e.g., "e2-micro").
 """)
 
