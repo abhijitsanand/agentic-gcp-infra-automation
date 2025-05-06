@@ -1,0 +1,8 @@
+python-dotenv
+langchain
+langchain-google-genai
+openai
+google-api-core
+pyyaml
+terraform
+ansible
